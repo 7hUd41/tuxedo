@@ -1,0 +1,63 @@
+:root
+{
+  /* from darker to lighter */
+  --dark: #343944;
+  --medium: #3e424d;
+  --median: #515561;
+  --light: #b0b9c6;
+  --bleu: #5294e2;
+  --chrome-background-color: red;
+}
+
+window
+{
+  width = 1750px;
+  height = 910px;
+}
+#TabsToolbar 
+{ 
+  background-color: var(--medium) !important;
+  margin-top:0px!important; 
+}
+/* URL BAR */
+/* around url bar */
+#urlbar-container
+{
+  background-color: var(--dark) !important;
+}
+#urlbar
+{
+  background-color: var(--medium) !important;
+}
+#nav-bar
+{
+  background-color: var(--dark) !important;
+}
+/* TOOL BAR */
+/* tool bar hover color */
+:root:-moz-lwtheme-brighttext, toolbar[brighttext] 
+{
+  /* tool bar button hover */
+  /*--toolbarbutton-hover-background: red !important;*/
+  /* tool bar button active background */
+  /*--toolbarbutton-active-background: blue !important;*/
+}
+  /* tab active border */
+  .tabbrowser-tab[visuallyselected="true"]
+{
+  background-color: var(--dark) !important;
+}
+.chromeclass-toolbar-additional
+{
+  color: var(--light) !important;
+}
+/****TAB****/
+
+/*colored top bar active tab*/
+:root:-moz-lwtheme
+{
+  /*bg active tab */
+  --toolbar-bgcolor: var(--dark) !important;
+  /* colored top bar */
+  --tab-line-color: var(--bleu) !important;
+}
